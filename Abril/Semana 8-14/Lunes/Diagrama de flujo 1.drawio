@@ -1,0 +1,74 @@
+<mxfile host="Electron" modified="2024-04-08T22:06:20.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="kLeLgAE0boxxsDVQybBa" version="24.1.0" type="device">
+  <diagram name="Página-1" id="sBf_1hOSOGw_uhXCH65K">
+    <mxGraphModel dx="880" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AcHEDWVUJTTToUDZqd2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4AcHEDWVUJTTToUDZqd2-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4AcHEDWVUJTTToUDZqd2-3" target="4AcHEDWVUJTTToUDZqd2-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="511" y="210" />
+              <mxPoint x="511" y="680" />
+              <mxPoint x="170" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-3" value="El auto necesita combustible" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341" y="170" width="146" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-6" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="311" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-7" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="180" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4AcHEDWVUJTTToUDZqd2-8" target="4AcHEDWVUJTTToUDZqd2-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4AcHEDWVUJTTToUDZqd2-8" target="4AcHEDWVUJTTToUDZqd2-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-8" value="Hay disponibilidad económica para la gasolina" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-10" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="553" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-12" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="298" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-13" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="368" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4AcHEDWVUJTTToUDZqd2-14" target="4AcHEDWVUJTTToUDZqd2-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="593" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AcHEDWVUJTTToUDZqd2-14" value="Ir a la gasolinera más cercana y repostar." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
