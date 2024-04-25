@@ -1,0 +1,73 @@
+MyProgram.java:
+--------------
+public class MyProgram extends ConsoleProgram {
+    public void run(){
+        //Declaracion de variables: 
+        Double num4, num5 = 1.4142;
+        Double num6 = 3.14, num7 = 2.8689, num8 = 5.85, num9 = 4.49;
+        Double num10 = 2.10;
+        Integer num11 = 1945; 
+        Integer num12 = 2010; 
+        Double num13 = 2.10; 
+        Integer num14 = 218;
+        Integer num15 = 684;
+        Integer num1 = 3, num2 = 2, num3;
+        Boolean status;
+        String texto_1 = "Hola ", texto_2 = "sección 1F \n", Numtexto = "2.81828";
+        
+        num3 = num1 + num2;
+        
+        //Concatenacion de dos cadenas de texto:
+        System.out.println(texto_1+texto_2);
+        
+        //Suma de dos numeros enteros:
+        System.out.println(num3);
+        
+        //Conversion de tipos de variables:
+        
+        //Conversion de Integer a Double: 
+        Double Enteronum1 = Double.valueOf(num1);
+        System.out.println(Enteronum1);
+        
+        //Conversion de String a Double:
+        Double NumTexto = Double.valueOf(Numtexto);
+        System.out.println(Numtexto);
+        
+        //Conversion de Double a String: 
+        String Stringnum5 = num5.toString();
+        System.out.println(Stringnum5);
+        
+        //Conversion de tipos de datos (de Double a Integer): 
+        Integer num6Int = Double.valueOf(num6).intValue();
+        System.out.println(num6Int);
+        
+        Integer num7Int = Double.valueOf(num7).intValue();
+        System.out.println(num7Int);
+        
+        Integer num8Int = Double.valueOf(num8).intValue();
+        System.out.println(num8Int);
+        
+        Integer num9Int = Double.valueOf(num9).intValue();
+        System.out.println(num9Int);
+        
+        Integer num10Int = Double.valueOf(num10).intValue();
+        System.out.println(num10Int);
+        
+        //Conversion de tipos de datos (de Integer a Double):
+        Double num11Double = Double.valueOf(num11);
+        System.out.println(num11Double);
+        
+        Double num12Double = Double.valueOf(num12);
+        System.out.println(num12Double);
+        
+        Double num14Double = Double.valueOf(num14);
+        System.out.println(num14Double);
+        
+        Double num15Double = Double.valueOf(num15);
+        System.out.println(num15Double);
+        
+        //Conversion de los numeros anteriores a String: 
+        String Concatenado = num6.toString() + ' ' + num7.toString() + ' ' + num8.toString() + ' ' + num9.toString() + ' ' + num10.toString() + ' ' + num11.toString() + ' ' + num12.toString() + ' ' + num14.toString() + ' ' + num15.toString();
+        System.out.println(Concatenado);
+     }
+}
