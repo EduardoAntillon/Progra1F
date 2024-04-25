@@ -1,0 +1,27 @@
+MyProgram.java:
+--------------
+import java.util.Scanner;
+
+public class MyProgram extends ConsoleProgram{
+   
+    public void run(){
+      
+      Scanner scanner = new Scanner(System.in);
+       System.out.print("Ingrese la experiencia laboral del trabajador: ");
+       
+       Integer periodo = scanner.nextInt();
+       
+       if(periodo<1){
+           System.out.print("Opcion no valida.");
+       }
+       if((periodo>=1)&&(periodo<=5)){
+           System.out.print("Principiante. ");
+       }
+       else if((periodo>=5)&&(periodo<=10)){
+           System.out.print("Intermedio. ");
+       }
+       else if(periodo>10){
+           System.out.print("Avanzado");
+       }
+    }
+}

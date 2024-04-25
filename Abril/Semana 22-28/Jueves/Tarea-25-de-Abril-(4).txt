@@ -1,0 +1,26 @@
+MyProgram.java:
+--------------
+import java.util.Scanner;
+
+public class MyProgram extends ConsoleProgram{
+   
+    public void run(){
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Digite un año para determinar si es bisiesto o no: ");
+        Integer Numero = scanner.nextInt();
+        
+        if((Numero%4 == 0)&&(Numero%100 != 0)){
+            System.out.print(" \n ");
+            System.out.print("El año es bisiesto. ");
+        }
+        else if(Numero%400==0){
+            System.out.print(" \n ");
+            System.out.print("El año es bisiesto. ");
+        }
+        else {
+            System.out.print(" \n ");
+            System.out.print ("El año no es bisiesto. ");
+        }
+    }
+}

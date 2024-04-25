@@ -1,0 +1,31 @@
+MyProgram.java:
+--------------
+import java.util.Scanner;
+
+public class MyProgram extends ConsoleProgram{
+   
+    public void run(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese una vocal: ");
+        String Palabra = scanner.nextLine();
+        
+        if(Palabra.equals("a")){
+            System.out.print("Palabra con inicial en a: Almibar");
+        }
+        else if(Palabra.equals("e")){
+            System.out.print("Palabra con inicial en e: Electrón");
+        }
+        else if(Palabra.equals("i")){
+            System.out.print("Palabra con inicial en i: Idóneo");
+        }
+        else if(Palabra.equals("o")){
+            System.out.print("Palabra con inicial en o: Occidente");
+        }
+        else if(Palabra.equals("u")){
+            System.out.print("Palabra con inicial en u: Urano");
+        }
+        else{
+            System.out.print("Opcion no válida");
+        }
+    }
+}

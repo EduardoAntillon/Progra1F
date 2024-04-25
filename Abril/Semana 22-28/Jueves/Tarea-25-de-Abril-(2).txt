@@ -1,0 +1,19 @@
+MyProgram.java:
+--------------
+import java.util.Scanner;
+
+public class MyProgram extends ConsoleProgram{
+   
+    public void run(){
+       Scanner scanner = new Scanner(System.in);
+       System.out.print("Ingrese un numero entero para determinar si es par o no: ");
+        Integer Numero = scanner.nextInt();
+        
+        if(Numero%2==0){
+            System.out.print("El numero es par. ");
+        }
+        else{
+            System.out.print("El numero no es par. ");
+        } 
+    }
+}
