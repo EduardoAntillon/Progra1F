@@ -1,0 +1,81 @@
+import java.util.Scanner;
+
+public class MyProgram extends ConsoleProgram{
+    
+    public void run(){
+        Scanner entrada = new Scanner(System.in);
+        
+        Integer selector = 0, continuar = 0;
+    
+   
+        
+        do{
+            System.out.println("Seleccione una accion a realizar: \n");
+            
+            System.out.println("1.) Mostrar los primeros 10 multiplos de un numero entero. \n");
+            System.out.println("2.) Responder si o no para entrar y permanecer en un bulce o salir del mismo. \n");
+            System.out.println("3.) Encontrar en angulo faltante al ingresar dos angulos previamente. \n");
+            
+            System.out.print("Opcion: ");
+            selector = entrada.nextInt();
+           
+            switch(selector){
+                case 1:
+                    Integer i, aux, numero; 
+                    System.out.print("Ingrese un numero entero para mostrar sus primeros 10 multiplos: ");
+                    numero = entrada.nextInt();
+                    
+                    System.out.print("Los primeros 10 multiplos son: \n");
+                    for(i=1;i<=10;i++){
+                        aux = numero*i;
+                        System.out.print(aux);System.out.print("\n");
+                    }
+                break;
+                
+                case 2:
+                    String cadena = "si", respuesta;
+                    
+                    while(true){
+                        System.out.print("Digite \"si\" para continuar: ");
+                        
+                        respuesta = entrada.next();
+                        
+                        if(!cadena.equals(respuesta)){
+                            break;
+                        }
+                        System.out.println("Bienvenido. \n");
+                    }
+                System.out.print("Adios");
+                break;
+                
+                case 3:
+                    Float angulo1, angulo2, angulo3;
+                    
+                    System.out.print("Ingrese el valor de dos de los angulos de un triangulo (en grados sexagesimales):\n ");
+                    System.out.print("Primer angulo: ");
+                    angulo1 = entrada.nextFloat();
+                    System.out.print("\n");
+                    System.out.print("Segundo angulo: ");
+                    angulo2 = entrada.nextFloat();
+                    
+                    angulo3 = 180-angulo1-angulo2;
+                    
+                    if((angulo3 < 0)||(angulo3==0)){
+                        System.out.print("Los angulos no pertenecen a un triangulo.");
+                    }
+                    else{
+                        System.out.print("El tercer angulo (en grados sexagesimales) mide: " + angulo3);
+                    }
+                break; 
+                
+                default:
+                    System.out.print("Opcion no valida");
+            }
+            System.out.print("\n Desea repetir: Si(1) No(0): ");
+            continuar = entrada.nextInt();
+            System.out.print("\033[H\033[2J");  
+            System.out.flush();
+        }while(continuar==1);
+        System.out.print("\n Programa finalizado.");
+    }       
+}
