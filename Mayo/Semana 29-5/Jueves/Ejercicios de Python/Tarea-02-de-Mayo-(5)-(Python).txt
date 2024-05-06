@@ -1,0 +1,10 @@
+print("Digite dos numeros enteros, el primero sera la base y el segundo su exponente: ")
+
+num1 = int(input("Primer numero: "))
+num2 = int(input("Segundo numero: "))
+
+potencia = num1
+for i in range(1,num2,1):
+   potencia*=num1
+   
+print(f"La potencia es {potencia}")
